@@ -2,7 +2,6 @@ import styles from "./text-images.module.scss";
 import PropTypes from "prop-types";
 
 export default function TextImage(props) {
-  //  using the props for usable and dynamic data
 
   const {
     reverse,
@@ -14,7 +13,6 @@ export default function TextImage(props) {
   } = props;
 
   const isReverse = reverse ? styles.reverse : "";
-  //  function for reverse image
 
   return (
     <>

@@ -31,7 +31,7 @@ export default function ScrollingText() {
       <div className={styles.mainWrapper}>
         <div className={styles.section1Content}>
           <h3 className="text-8xl">
-            Were <br />
+            We're <br />
             GrowthOps
           </h3>
           <img src="/src/assets/asia.png" className={styles.imgAsia} alt="" />
