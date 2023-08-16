@@ -1,0 +1,97 @@
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    justify-content: space-around;
+    
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    display: flex;
+    padding: 30px;
+  }
+  
+}
+
+.contentWrapper {
+    width: 100%;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -3px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 100px 0;
+}
+
+
+.parallax {
+
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  white-space: nowrap;
+  width: 66vw;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 35px 0px;
+
+  .scroller {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 64px;
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .imgScroller {
+
+      img {
+        max-width: 310vw;
+      }
+    }
+
+    span {
+      display: block;
+      margin-right: 60px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+  
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  white-space: nowrap;
+  width: 96vw;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 35px 0px;
+
+  .scroller {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 64px;
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .imgScroller {
+      max-width: 100%;
+    }
+
+    span {
+      display: block;
+      margin-right: 60px;
+    }
+  }
+}
+}
+
+
+  

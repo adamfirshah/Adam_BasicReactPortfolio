@@ -1,0 +1,89 @@
+.cardBody {
+  padding: 10px 20px;
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+
+  h2 {
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 32px;
+    color: #07ddda;
+  }
+  
+  @media screen and (min-width: 768px) {
+    padding: 10px 10px;
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+    }
+
+    h2 {
+      padding-top: 10px;
+      font-weight: 800;
+      font-size: 32px;
+      color: #07ddda;
+    }
+  }
+}
+
+.cardInfo {
+  padding-top: 15px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  border: 2px solid rgba(245, 245, 245, 0.08);
+  text-align: left;
+  border-radius: 8px;
+  margin: 10px 0px;
+
+  li {
+    display: flex;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+    padding: 5px 5px;
+  }
+
+  span {
+    padding: 5px 5px;
+    color: rgba(245, 245, 245, 1);
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border: 2px solid rgba(245, 245, 245, 0.08);
+    text-align: left;
+    border-radius: 8px;
+    margin: 10px 30px;
+
+    li {
+      display: flex;
+    }
+
+    img {
+      width: auto;
+      height: auto;
+      padding: 5px 5px;
+    }
+
+    span {
+      padding: 5px 5px;
+      color: rgba(245, 245, 245, 1);
+    }
+  }
+}
+
+//aqilah's code

@@ -1,0 +1,14 @@
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px 0px;
+  
+    @media screen and (min-width: 998px) {
+      flex-direction: row;
+      gap: 12px;
+      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; 
+    }
+  }

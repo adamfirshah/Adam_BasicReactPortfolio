@@ -1,0 +1,71 @@
+.container {
+    padding: 0px 14px;
+  
+    @media screen and (min-width: 768px) {
+      padding: 57px 64px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .contentContainer {
+    display: flex;
+    padding: 12px;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      padding: 30px;
+    }
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex-direction: row;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      padding: 30px 68px;
+    }
+  }
+  
+  .arrowToggle {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #ecedfd;
+  }
+  
+  .imageFluid {
+    display: flex;
+  
+    @media (min-width: 200px) and (max-width: 431px) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .tabContainer {
+    display: flex;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+    @media screen and (min-width: 1200px) {
+      gap: 10px;
+      padding: 0px 10px;
+      display: flex;
+      background-color: transparent;
+      border-radius: 50px;
+      border: 1px solid #3f3f3f;
+    }
+  }
+
+
+  .QuoteImage {
+    max-width: 20px;
+    height: 20px;
+  }

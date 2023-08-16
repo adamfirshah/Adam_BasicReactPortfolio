@@ -1,0 +1,102 @@
+.pillsBorder {
+    background: #ffffff;
+  }
+  .pills {
+    // flex: 0 1 40%;
+    // display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px;
+    margin: 12px;
+    background: #ecedfd;
+    border-radius: 32px;
+    cursor: pointer;
+  
+    p {
+      color: #000433;
+  
+      h4 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+      }
+    
+    }
+  
+    &.active {
+      background: #4550e5;
+      p {
+        color: #ffffff;
+      }
+    }
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  
+    & > .text {
+      width: 60%;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      display: flex;
+      gap: 30px;
+    }
+  }
+  
+  .textDesc {
+    display: flex;
+    flex-direction: column;
+    p {
+      color: #ffffff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      margin-bottom: 26px;
+    }
+  
+    h6 {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+  
+    span {
+      color: #bebebe;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+  
+  .menu {
+    display: flex;
+    flex-grow: 1;  
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 10px auto;
+  
+    &.active {
+      background: #4ac3c5;
+      border-radius: 22px;
+      margin: 6px;
+      li {
+        color: #000000;
+        padding: 10px 16px;
+      }
+    }
+  
+    li {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      padding: 5px;
+    }
+  }

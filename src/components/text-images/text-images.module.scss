@@ -1,0 +1,78 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  justify-content: space-around;
+
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    display: flex;
+    padding: 30px;
+  }
+  
+}
+
+.contentWrapper {
+  width: 100%;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  li {
+    padding: 5px 0px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 30%;
+    h1 {
+    font-size: 30px;
+      color: #ffffff;
+      font-weight: 700;
+    }
+    li {
+      padding: 2px 0px;
+    }
+    ol {
+      padding: 20px 0px;
+      color: #ffffff;
+      font-weight: 300;
+      line-height: 170%;
+    }
+  }
+}
+
+.iconNumberContainer {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.iconNumber {
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.buttonContainer {
+  margin: 20px 0px;
+}
+.button {
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 12px;
+}
+
+.reverse {
+  flex-direction: column;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row-reverse;
+  }
+} 
