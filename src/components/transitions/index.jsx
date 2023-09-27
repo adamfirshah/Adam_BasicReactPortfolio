@@ -31,7 +31,7 @@ export default function ScrollingText() {
       <div className={styles.mainWrapper}>
         <div className={styles.section1Content}>
        
-          <h3 className="text-8xl ml-6">
+        <h3 className="text-8xl ml-6">
             <span>
               Hello I'm
             </span>
@@ -47,7 +47,7 @@ export default function ScrollingText() {
 
           <br />
         
-          <img src="/src/assets/adam.png" className={styles.imgAsia} alt="" />
+          <img src="./../../../public/images/adam.png" className={styles.imgAsia} alt="" />
         </div>
       </div>
     </motion.div>
