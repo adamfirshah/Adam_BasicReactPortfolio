@@ -1,6 +1,8 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import styles from "./transitions.module.scss";
+import face from  "./../../../public/images/adam.png";
+
 
 export default function ScrollingText() {
   const controls = useAnimation();
@@ -46,8 +48,8 @@ export default function ScrollingText() {
         
 
           <br />
-        
-          <img src="./../../../public/images/adam.png" className={styles.imgAsia} alt="" />
+
+          <img src={face} className={styles.imgAsia} alt="" />
         </div>
       </div>
     </motion.div>
