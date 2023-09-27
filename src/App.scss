@@ -6,9 +6,16 @@
 .hero-1 {
   font-weight: 800;
   color: white;
-  line-height: 140px;
+  // line-height: 140px;
   font-size: 140px;
 }
+
+.hero-2 {
+  font-size: 20px;
+  margin-top: 85px;
+  color: #ebebebaa;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -154,7 +161,13 @@
       font-size: 96px;
       text-align: center;
       font-weight: 800;
-      line-height: 44px;
+      line-height: 110px;
+    }
+
+    span {
+      animation: colorAnimation 7s infinite;
+      border: 2px solid;
+      border-radius: 50%;
     }
   }
 }
@@ -361,7 +374,7 @@
     color: white;
     line-height: 140px;
     font-size: 90px;
-    padding: 0px 190px;
+    padding: 0px 0px;
   }
 }
 
@@ -380,7 +393,7 @@
     color: white;
     line-height: 45px;
     font-size: 30px;
-    padding: 0px 190px;
+    padding: 0px 140px;
   }
 }
 //form
@@ -393,8 +406,9 @@
   margin-right: 0px !important;
 
   @media screen and (min-width: 768px) {
-    width: 60%;
-    padding: 60px 190px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 80px;
     h6 {
       font-size: 16px;
       color: #646464;
@@ -503,3 +517,30 @@
     padding: 0;
   }
 }
+
+.newSection {
+    //mobile view
+    h2 {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 50px;
+  
+      //desktop view
+      @media screen and (min-width: 768px) {
+        font-size: 96px;
+        font-weight: 800;
+        line-height: 120px;
+        margin: 0 auto;
+      }
+    }
+  
+    span {
+      animation: colorAnimation 7s infinite;
+      border: 2px solid;
+      border-radius: 50%;
+    }
+  }
+
+  .buttonSubmit {
+    border: 1px solid #ffffff;
+  }

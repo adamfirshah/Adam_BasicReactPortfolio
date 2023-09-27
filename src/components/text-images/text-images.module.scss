@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 32px;
   justify-content: space-around;
+  margin-top: 20px;
 
 
   @media screen and (min-width: 768px) {
@@ -76,3 +77,9 @@
     flex-direction: row-reverse;
   }
 } 
+
+
+.paraDescription {
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -2,9 +2,9 @@ import { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform, useMotionValue, useVelocity, useAnimationFrame } from "framer-motion";
 import { wrap } from "@motionone/utils";
 import styles from "./scrollvelocity.module.scss";
-import Image1 from "./../../../public/images/sc1.png";
-import Image2 from "./../../../public/images/sc2.png";
-import Image3 from "./../../../public/images/sc3.png";
+import Image1 from "./../../../public/images/sc6.png";
+import Image2 from "./../../../public/images/sc4.png";
+import Image3 from "./../../../public/images/sc5.png";
 
 
 

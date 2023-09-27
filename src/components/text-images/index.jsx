@@ -7,6 +7,7 @@ export default function TextImage(props) {
     reverse,
     title = "",
     number = "",
+    description = "",
     items = [],
     btnLink,
     image = "",
@@ -22,14 +23,15 @@ export default function TextImage(props) {
             <div className={styles.iconNumber}>{number}</div>
           </div>
           <h1>{title}</h1>
+          <p className={styles.paraDescription}>{description}</p>
           <ol>
             {items.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ol>
           <div className={styles.buttonContainer}>
-            <a href={btnLink} className={styles.button}>
-              See More
+            <a href={btnLink} target="_blank" className={styles.button}>
+            See More
             </a>
           </div>
         </div>
