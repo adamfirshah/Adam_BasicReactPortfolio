@@ -225,17 +225,18 @@ return (
       </div> */}
 
     <div className="section-9">
-      <div className="flex">
+      <div className="">
 
         <div className="w-1/2">
-          <p className="sectionContactPara">
-            <h2 className="sectionContact text-left pt-20 pb-2">CONTACT ME</h2>
-            Let's create something awesome <br />
-            together!
+          <p className="sectionContactPara sm:w-full">
+            <h2 className=" text-left pt-20 pb-2">CONTACT ME</h2>
+            <span>
+              Let's create something awesome together!
+            </span>
           </p>
         </div>
 
-        <div className="w-1/2">
+        <div className="w-1/2 sm:w-full">
           <form onSubmit={handleSubmit}
             className="form-container">
             <div className="fullname">

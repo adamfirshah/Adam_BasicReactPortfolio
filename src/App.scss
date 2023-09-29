@@ -359,24 +359,24 @@
   }
 }
 
-.sectionContact {
-  font-weight: 800;
-  color: white;
-  line-height: 140px;
-  padding-top: 0x !important;
-  font-size: 35px;
-  padding-left: 30px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+// .sectionContact {
+//   font-weight: 800;
+//   color: white;
+//   line-height: 70px;
+//   padding-top: 0x !important;
+//   font-size: 70px;
+//   padding-left: 30px;
+//   padding-top: 0px !important;
+//   padding-bottom: 0px !important;
 
-  @media screen and (min-width: 768px) {
-    font-weight: 800;
-    color: white;
-    line-height: 140px;
-    font-size: 90px;
-    padding: 0px 0px;
-  }
-}
+//   @media screen and (min-width: 768px) {
+//     font-weight: 800;
+//     color: white;
+//     line-height: 140px;
+//     font-size: 90px;
+//     padding: 0px 0px;
+//   }
+// }
 
 .sectionContactPara {
   font-weight: 500;
@@ -388,6 +388,17 @@
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 
+  h2 {
+    font-weight: 800;
+    color: white;
+    line-height: 70px;
+    padding-top: 0x !important;
+    font-size: 70px;
+    padding-left: 30px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
   @media screen and (min-width: 768px) {
     font-weight: 500;
     color: white;
@@ -395,18 +406,28 @@
     font-size: 30px;
     padding: 0px 140px;
   }
+
+  h2 {
+    font-weight: 800;
+    color: white;
+    line-height: 75px;
+    font-size: 70px;
+    padding: 0px 0px;
+  }
+
 }
 //form
 
 
 
 .form-container {
-  width: 80%;
+  width: 200%;
   padding: 40px 35px;
   margin-right: 0px !important;
 
   @media screen and (min-width: 768px) {
-    width: 80%;
+    width: 90%;
+    padding-left: 140px;
     padding-top: 20px;
     padding-bottom: 80px;
     h6 {
